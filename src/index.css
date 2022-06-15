@@ -30,20 +30,19 @@
   position: fixed;
   width: 0; 
    top: 0;
+
    /* color: #FFFFFF;
  background: #111111; */
  /* background: #FFFFFF; */
    /* right: 0; 
   bottom: 0;  */
   /* height: 100vh;
-
   overflow: hidden;
    max-width: 290px; 
     z-index: 9;
 }
 
-
-span {
+.span {
   display: block;
   /* padding: 10px 10px;  */
    /* text-decoration: none; */
@@ -85,4 +84,5 @@ span {
 
 .menuNav.showMenu {
   width: 100%;
+
 }

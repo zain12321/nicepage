@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Login from './Login';
 
 function Contact() {
 	return (
        <div className=''>
          <div>
-           <Header/>
+           {/* <Header/> */}
+           <Navbar/>
            </div>
          <div>
            <img className='h-[900px]  

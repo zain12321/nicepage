@@ -45,7 +45,7 @@ w-screen  bg-[#FFFFFF] ">
 				<div className="left-0 flex 
              top-0 bg-[#111111] pt-[70px] pl-[100px] sm:pl-14 text-[18px] 
              text-[#FFFFFF] 
-          h-screen overflow-y-hidden ">
+          h-screen overflow-y-hidden">
 					<ul className="space-y-2  
             w-[250px] 
               

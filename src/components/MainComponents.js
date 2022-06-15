@@ -3,6 +3,7 @@ import Cards from './Cards'
 import Footer from './Footer'
 import Header from './Header'
 import Home from './Home'
+import Navbar from './Navbar'
 import ProjectCard from './ProjectCard'
 import Reviews from './Reviews'
 import ServiceCard from './ServiceCard'
@@ -12,7 +13,8 @@ import Unique from './Unique'
 function MainComponents() {
   return (
     <div>
-         <Header />
+		<Navbar/>
+         {/* <Header /> */}
 			<Home />
 			<ServiceCard />
 			<Strategy />
