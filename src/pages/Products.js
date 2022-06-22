@@ -2,7 +2,7 @@ import React from 'react'
 
 function Products() {
   return (
-    <div className='pl-4 mb-12 lg:pl-12 xl:pl-28'>
+    <div className='pl-4 mb-12 lg:pl-12 xl:pl-28 '>
         <h1 className='text-[60px] text-[#111111] md:font-semibold lg:font-bold'>Build Great Products</h1>
         <div className='grid grid-cols grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 
         lg:grid-rows-2 

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { GiStickFrame } from 'react-icons/gi'
 import { MdOutlineTouchApp, MdPersonOutline } from 'react-icons/md'
 import {RiAwardLine } from 'react-icons/ri'
 
 function Success() {
+    useEffect(() => {
+		Aos.init({ duration: 3000 });
+	}, []);
+
   return ( 
     <div className=' md:flex-col 
     lg:flex-col ml-2 lg:ml-12 xl:ml-36 mb-4 mt-3 lg:mt-16 '>
@@ -17,7 +23,7 @@ function Success() {
           gap-y-5 sm:gap-4   md:gap-y-5   lg:gap-y-8  lg:mt-0
                   grid grid-cols-1 md:grid-cols-1 md:grid-rows-4 grid-rows-4 lg:grid-cols-2
                    lg:grid-rows-2 text-[#FFFFFF] '>
-       <div  className='h-[270px] w-[330px] bg-[#f1c50e] pt-11 flex flex-col items-center '>
+       <div data-aos="fade-zoomIn"  className='h-[270px] w-[330px] bg-[#f1c50e] pt-11 flex flex-col items-center '>
            <GiStickFrame className='h-16 w-16 '/>
            <h1 className='
            text-[24px] text-[#FFFFFF] font-semibold pt-2'>Projects</h1>
@@ -25,7 +31,7 @@ function Success() {
        </div>
 
 
-       <div  className='h-[270px] w-[330px] bg-[#7c5ddf] pt-11 flex flex-col items-center'>
+       <div data-aos="fade-zoomIn"  className='h-[270px] w-[330px] bg-[#7c5ddf] pt-11 flex flex-col items-center'>
        <MdOutlineTouchApp className='h-16 w-16 '/>
            <h1 className='
            text-[24px] text-[#FFFFFF] font-semibold pt-2'>Projects</h1>
@@ -35,7 +41,7 @@ function Success() {
 
 
 
-       <div  className='h-[270px] w-[330px] bg-[#7c5ddf]  pt-11 flex flex-col items-center'>
+       <div data-aos="fade-zoomIn"  className='h-[270px] w-[330px] bg-[#7c5ddf]  pt-11 flex flex-col items-center'>
        <MdPersonOutline className='h-16 w-16 '/>
            <h1 className='
            text-[24px] text-[#FFFFFF] font-semibold pt-2'>Projects</h1>
@@ -45,7 +51,7 @@ function Success() {
 
 
 
-       <div  className='h-[270px] w-[330px] bg-[#f1c50e] pt-11 flex flex-col items-center'>
+       <div data-aos="fade-zoomIn" className='h-[270px] w-[330px] bg-[#f1c50e] pt-11 flex flex-col items-center'>
        <RiAwardLine className='h-16 w-16 '/>
            <h1 className='
            text-[24px] text-[#FFFFFF] font-semibold pt-2'>Projects</h1>

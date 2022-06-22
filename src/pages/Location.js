@@ -1,8 +1,14 @@
-import React from 'react'
-
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 function Location() {
+  useEffect(() => {
+		Aos.init({ duration: 3000 });
+	}, []);
+
+
   return (
-    <div className='h-[700px] sm:h-[590px] md:h-[400px] bg-[#FFFFFF]'>
+    <div 	data-aos="fade-zoomIn-played" className='h-[700px] sm:h-[590px] md:h-[400px] bg-[#FFFFFF]'>
          <div className='pl-3 sm:pl-24 pt-3 sm:pt-14 space-y-5'>
          <p className='uppercase tracking-widest text-[18px] '>Location</p>
          <h1 className='text-[48px] font-bold text-[#111111] w-[300px] sm:w-[330px] md:w-[700px]'>121 Rock Sreet, 21 Avenue,

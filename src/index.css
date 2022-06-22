@@ -12,52 +12,6 @@
 }
 
 
-.navBar {
-  position: relative;
-}
-
-.navBar button {
-  /* position: fixed; */
-  /* left: 10px; */
-  /* top: 40px; */
-  z-index: 10; 
- /* cursor: pointer; */
-}
-
-.menuNav {
-  /* overflow-y: scroll; */
-  /* list-style: none; */
-  position: fixed;
-  width: 0; 
-   top: 0;
-
-   /* color: #FFFFFF;
- background: #111111; */
- /* background: #FFFFFF; */
-   /* right: 0; 
-  bottom: 0;  */
-  /* height: 100vh;
-  overflow: hidden;
-   max-width: 290px; 
-    z-index: 9;
-}
-
-.span {
-  display: block;
-  /* padding: 10px 10px;  */
-   /* text-decoration: none; */
-  /* color: #3fffd2; */
-  /* color: black; */
-  /* text-transform: uppercase;
-  font-weight: bold; */
-  
-} 
-
-/* .menuNav li:first-child {
-  margin-top: 7rem;
-}
-  */
- 
 .oswald{
   font-family: 'Oswald', sans-serif;
 
@@ -65,7 +19,9 @@
 }
 
 .roboto{
-  font-family: 'Roboto', sans-serif;
+  
+    font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -75,7 +31,7 @@
 
 .unique{
   background:
-   url('./assets/2022022408334798.jpg') 
+   url('./assets/unique.jpg') 
   no-repeat center/cover;
   
 }
@@ -86,3 +42,69 @@
   width: 100%;
 
 }
+
+
+
+
+
+
+.architecture {
+  animation: slideIn linear  4s ;
+  /* opacity: 0; */
+  transition: 350ms;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}
+@keyframes slideIn {
+  0% { opacity : 0;
+  transform: translateX(100%);
+ }
+  100% { opacity : 1;
+    transform: translateX(0%);
+  }
+}
+ 
+
+
+
+
+
+
+
+
+  .Home {
+    background:
+     url('https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/c013fa0e06ce5c8fb78400a1/pexels-photo-6434779.jpeg') 
+    center/cover ;
+    height: 856px;
+    width: 100%;
+   
+    background-size: auto 145%;
+    background-position: 0% 116%;
+    background-repeat: no-repeat;
+
+ 
+}
+
+

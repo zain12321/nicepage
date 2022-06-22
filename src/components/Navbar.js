@@ -21,7 +21,7 @@ function Navbar() {
           </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
+          <ul className='nav-menu-items ' onClick={showSidebar}>
             <li className='navbar-toggle w-[250px] flex items-center bg-[#111111] pl-[200px]'>
               <Link to='#' className='menu-bars'>
                 <AiIcons.AiOutlineClose className='text-white' />
@@ -29,10 +29,11 @@ function Navbar() {
             </li>
             {SidebarData.map((item, index) => {
               return (
-                <li key={index} className='nav-text'>
+                <li key={index} className='nav-text  '>
                   <Link to={item.path}>
                     {item.cName}
-                    <span className=''>{item.title}</span>
+                    {item.title}
+                   
                   </Link>
                 </li>
               );

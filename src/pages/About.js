@@ -11,7 +11,7 @@ function About() {
   const [activeTab, setActiveTab] = React.useState("OVERVIEW")
   console.log("active tabs",activeTab)
   return (
-    <div className='h-[900px] sm:h-[940px] md:h-[640px] pl-9 sm:pl-12 
+    <div className='h-[980px] sm:h-[940px] md:h-[640px] pl-9 sm:pl-12 
     md:pl-12 lg:pl-10 xl:pl-28 pt-12'>
         <h1 className='text-[48px] font-bold '>
         About Us
@@ -38,21 +38,21 @@ className='h-12 w-36  text-[18px] text-[#FFFFFF] bg-[#7c5ddf] sans font-semibold
             </div>
             {activeTab === "OVERVIEW" && 
             
-            <div className='h-[550px] sm:h-[600px] 
-        w-[290px]     md:h-[380px] lg:h-[300px] sm:w-[500px] bg-[#FFFFFF] 
+            <div className='h-[640px] sm:h-[600px] 
+        w-[290px] overflow-hidden md:h-[380px] lg:h-[300px] sm:w-[500px] bg-[#FFFFFF] 
              md:w-[670px] lg:w-[900px] xl:w-[1100px] 
             pl-4 pt-4 space-y-7'>
-            <p className='text-[24px] w-[300px] md:w-[640px] lg:w-[830px] font-bold'>Brave 
+            <p className='text-[24px] w-[250px] sm:w-[300px] md:w-[640px] lg:w-[830px] font-bold'>Brave 
   is an innovative web solution, which combines captivating design and flawless functionality in 
   a multipurpose HTML template.</p>
-            <p className='text-[#7D5CCF] w-[300px] md:w-[640px] lg:w-[730px] text-[16px] font-semibold'>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p className='text-[16px] text-[#111111] w-[300px] md:w-[640px] lg:w-[730px] font-medium leading-5'>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p className='text-[#7D5CCF] w-[260px] sm:w-[300px] md:w-[640px] lg:w-[730px] text-[16px] font-semibold'>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p className='text-[16px] text-[#111111] w-[250px] sm:w-[300px] md:w-[640px] lg:w-[730px] font-medium leading-5'>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
      </div>
 }
      {activeTab === "FOUNDER" && 
      
-      <div className='h-[500px] sm:h-[370px] bg-[#FFFFFF] w-[290px]  sm:w-[500px] md:w-[670px] lg:w-[900px] xl:w-[1100px] pl-4 pt-4 sm:pt-16 space-y-7'>
-    
+      <div className='h-[500px] sm:h-[370px] bg-[#FFFFFF] w-[290px] 
+       sm:w-[500px] md:w-[670px] lg:w-[900px] xl:w-[1100px] pl-4 pt-4 sm:pt-6 md:pt-16 space-y-7'>
 
       <p className='text-[#111111] w-[250px] md:w-[600px] lg:w-[900px] xl:w-[1030px] text-[16px] font-semibold'>Sample 
       text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

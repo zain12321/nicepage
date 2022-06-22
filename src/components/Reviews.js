@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
-
 function Reviews() {
 	const [ activeTab, setActiveTab ] = React.useState('DESCRIPTION');
 	return (
 		<div className="w-screen text-left lg:h-[680px] xl:h-[580px] bg-[#EFE2CC] md:pl-6 
-	pl-[10px]	sm:pl-[70px] lg:pl-11 xl:pl-32 ">
+	pl-[10px]	sm:pl-[70px] lg:pl-[95px] xl:pl-28 ">
 			<div className="">
 				<ul className="uppercase grid grid-cols-1 grid-rows-2 md:flex items-center mt-16   ">
 					<li
@@ -24,7 +23,7 @@ function Reviews() {
         w-[135px]    sm:h-14 sm:w-[250px] md:w-[233px] xl:w-[367px] lg:w-[310px] hover:bg-[#FFFFFF]
             sm:pl-[100px]    sm:ml-0 pl-4 md:pl-[70px] pt-1 lg:pl-[100px] xl:pl-32 sm:pt-3 text-[#111111]
             text-[20px] font-medium oswald cursor-pointer"
-				>
+						>
 							Specifications
 						</li>
 
@@ -53,7 +52,7 @@ function Reviews() {
 								 w-[300px] md:h-[380px] sm:mx-3 md:w-[300px]
 								  lg:h-[420px] xl:h-[350px] md:mx-7
             sm:mt-5  md:mt-7 lg:mt-10 xl:mt-6 sm:w-[470px]"
-				src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/4182ebc926ca5e378edae974/pexels-photo-3914752.jpeg?version="
+								src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/4182ebc926ca5e378edae974/pexels-photo-3914752.jpeg?version="
 								alt=""
 							/>
 						</div>
@@ -71,13 +70,15 @@ function Reviews() {
                 xl:w-[500px] overflow-hidden sm:text-[20px] md:text-[16px]
 				 xl:text-[16px] text-[#111111] 
 				font-normal lg:space-y-3 ">
-								<li className='overflow-hidden'>excepteur sint occaecat cupidatat non</li>
-								<li className='overflow-hidden'>sunt in culpa qui officia deserunt</li>
-								<li className='overflow-hidden'>ut enim ad minim veniam</li>
-								<li className='overflow-hidden'>quis nostrud exercitation ullamco</li>
-								<li className='overflow-hidden'>laboris nisi ut aliquip ex ea commodo</li>
-								<li className='overflow-hidden'>duis aute irure dolor in reprehenderit in</li>
-								<li className='overflow-hidden'>voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+								<li className="overflow-hidden">excepteur sint occaecat cupidatat non</li>
+								<li className="overflow-hidden">sunt in culpa qui officia deserunt</li>
+								<li className="overflow-hidden">ut enim ad minim veniam</li>
+								<li className="overflow-hidden">quis nostrud exercitation ullamco</li>
+								<li className="overflow-hidden">laboris nisi ut aliquip ex ea commodo</li>
+								<li className="overflow-hidden">duis aute irure dolor in reprehenderit in</li>
+								<li className="overflow-hidden">
+									voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								</li>
 							</div>
 						</div>
 					</div>
@@ -127,8 +128,6 @@ function Reviews() {
 					</div>
 				</div>
 			)}
-
-			
 		</div>
 	);
 }

@@ -1,30 +1,28 @@
-import React from 'react'
-import Cards from './Cards'
-import Footer from './Footer'
-import Header from './Header'
-import Home from './Home'
-import Navbar from './Navbar'
-import ProjectCard from './ProjectCard'
-import Reviews from './Reviews'
-import ServiceCard from './ServiceCard'
-import Strategy from './Strategy'
-import Unique from './Unique'
+import React from 'react';
+import Cards from './Cards';
+import Footer from './Footer';
+import Home from './Home';
+import Navbar from './Navbar';
+import ProjectCard from './ProjectCard';
+import Reviews from './Reviews';
+import ServiceCard from './ServiceCard';
+import Strategy from './Strategy';
+import Unique from './Unique';
 
 function MainComponents() {
-  return (
-    <div>
-		<Navbar/>
-         {/* <Header /> */}
+	return (
+		<div>
+			<Navbar />
 			<Home />
 			<ServiceCard />
 			<Strategy />
 			<ProjectCard />
 			<Cards />
 			<Unique />
-			  <Reviews/>
-              <Footer/>
-    </div>
-  )
+			<Reviews />
+			<Footer />
+		</div>
+	);
 }
 
-export default MainComponents
+export default MainComponents;
